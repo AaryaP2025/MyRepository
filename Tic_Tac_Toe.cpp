@@ -370,7 +370,7 @@ int main()
 
     while(!won && !full1)
     {
-        cout<<"Enter the cell number you want to populate. Use the format as this: For row 1 elements, 1a,1b,1c. For row 2 elements 2a,2b,2c, etc.:"<<endl;
+        cout<<"Enter row number:"<<endl;
         cin>>r;
         cout<<"Enter column number:"<<endl;
         cin>>c;
